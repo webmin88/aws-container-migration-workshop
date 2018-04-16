@@ -1,6 +1,6 @@
 node {
    stage ('Checkout'){
-       git 'https://github.com/webmin88/aws-container-migration-workshop'
+       git 'https://github.com/omarlari/aws-container-migration-workshop.git'
    }
 
    stage ('Build Dockerfile'){
